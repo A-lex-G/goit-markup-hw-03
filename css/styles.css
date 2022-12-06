@@ -1,0 +1,192 @@
+/* Common styles */
+:root {
+    --iris: #4D5AE5;
+    --navy-blue: #2E2F42;
+    --slate: #434455;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --white: #FFFFFF
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: var(--navy-blue);
+    font-size: 16px;
+}
+.list {
+    list-style: none;
+}
+/* Hidden headings */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+/* Header styles */
+.header-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue);
+}
+.logo {
+    color: var(--iris);
+}
+/* Navigation styles */
+.navigation-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+/* Contacts styles */
+.contacts-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.link {
+    text-decoration: none;
+}
+/* Main page hero styles */
+.hero {
+    background-color: var(--navy-blue);
+}
+.hero-name {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+/* Main page button styles */
+.btn-main {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background-color: var(--iris);
+    border-radius: 4px;
+    width: 170px;
+    height: 51px;
+}
+/* Main page advantages styles */
+.advantages-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.advantages-discription {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/* Main page service-description styles */
+.service-description {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/* Main page team description styles */
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.person {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.job-discription {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/*Portfolio button styles */
+.btn-filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--iris);
+    background-color: var(--cloud);
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
+}
+.btn-filter:hover {
+    color: var(--white);
+    background-color: var(--iris);
+    cursor: pointer;
+}
+.btn-filter:focus {
+    color: var(--white);
+    background-color: var(--iris);
+}
+/* Portfolio cards styles */
+.link .card-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.link .card-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+}
+/* Footer styles */
+.footer {
+    background-color: var(--navy-blue);
+}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--cloud);
+}
+.footer-slogan {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cornflower)
+}
