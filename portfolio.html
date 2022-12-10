@@ -23,8 +23,8 @@
         <a class="header-link link" href="/"
           ><span class="logo">WEB</span>STUDIO</a
         >
-        <nav>
-          <ul class="navigation list">
+        <nav class="navigation">
+          <ul class="navigation-block list">
             <li class="item">
               <a class="navigation-item link" href="./index.html">Studio</a>
             </li>
@@ -53,9 +53,8 @@
       </div>
     </header>
     <main>
-      <h1 class="visually-hidden">Portfolio</h1>
-      <section class="portfolio-btn container">
-        <h2 class="visually-hidden">Filter</h2>
+      <section class="container section portfolio-block">
+        <h1 class="visually-hidden">Portfolio</h1>
         <ul class="btn-list list">
           <li class="item">
             <button class="btn-filter" type="button">All</button>
@@ -73,157 +72,153 @@
             <button class="btn-filter" type="button">Marketing</button>
           </li>
         </ul>
-      </section>
-      <section class="section card-gallery">
-        <div class="container">
-          <h2 class="visually-hidden">Portfolio cards</h2>
-          <ul class="list card-block">
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/bank_app_interface.jpg"
-                  alt="Banking application interface concept"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Banking App Interface Concept</h3>
-                  <p class="card-type">App</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/mobile-wallet.jpg"
-                  alt="Cell phone in the hend"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <p class="card-text visually-hidden">
-                    14 Stylish and User-Friendly App Design Concepts · Task
-                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
-                    App · Cloud Storage App
-                  </p>
-                  <h3 class="card-name">Cashless Payment</h3>
-                  <p class="card-type">Marketing</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#"
-                ><img
-                  class="card-image"
-                  src="./images/laptop_cell-phone.jpg"
-                  alt="laptop and cellular phone"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Meditaion App</h3>
-                  <p class="card-type">App</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/taxi_driver.jpg"
-                  alt="The driver seating in the car"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Taxi Service</h3>
-                  <p class="card-type">Marketing</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/screen_illustrations.jpg"
-                  alt="Screen illustrations of the cell phone"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Screen Illustrations</h3>
-                  <p class="card-type">Design</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/smiling_girl.jpg"
-                  alt="smiling girl in an orange sweater"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Online Courses</h3>
-                  <p class="card-type">Marketing</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/instagram_stories.jpg"
-                  alt="Instagram stories concept"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Instagram Stories Concept</h3>
-                  <p class="card-type">Design</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/fruits_and_vegatables.jpg"
-                  alt="Lady with fruits and vegatables"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Organic Food</h3>
-                  <p class="card-type">Web Site</p>
-                </div>
-              </a>
-            </li>
-            <li class="item">
-              <a class="link" href="#">
-                <img
-                  class="card-image"
-                  src="./images/coffee_art.jpg"
-                  alt="a cup of coffee in the hand"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-discription">
-                  <h3 class="card-name">Fresh Coffee</h3>
-                  <p class="card-type">Web Site</p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
+
+        <ul class="list card-block">
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/bank_app_interface.jpg"
+                alt="Banking application interface concept"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Banking App Interface Concept</h3>
+                <p class="card-type">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/mobile-wallet.jpg"
+                alt="Cell phone in the hend"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <p class="card-text visually-hidden">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+                <h3 class="card-name">Cashless Payment</h3>
+                <p class="card-type">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#"
+              ><img
+                class="card-image"
+                src="./images/laptop_cell-phone.jpg"
+                alt="laptop and cellular phone"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Meditaion App</h3>
+                <p class="card-type">App</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/taxi_driver.jpg"
+                alt="The driver seating in the car"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Taxi Service</h3>
+                <p class="card-type">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/screen_illustrations.jpg"
+                alt="Screen illustrations of the cell phone"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Screen Illustrations</h3>
+                <p class="card-type">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/smiling_girl.jpg"
+                alt="smiling girl in an orange sweater"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Online Courses</h3>
+                <p class="card-type">Marketing</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/instagram_stories.jpg"
+                alt="Instagram stories concept"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Instagram Stories Concept</h3>
+                <p class="card-type">Design</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/fruits_and_vegatables.jpg"
+                alt="Lady with fruits and vegatables"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Organic Food</h3>
+                <p class="card-type">Web Site</p>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a class="link" href="#">
+              <img
+                class="card-image"
+                src="./images/coffee_art.jpg"
+                alt="a cup of coffee in the hand"
+                width="360"
+                height="300"
+              />
+              <div class="card-discription">
+                <h3 class="card-name">Fresh Coffee</h3>
+                <p class="card-type">Web Site</p>
+              </div>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
-      <div class="container footer-block">
+      <div class="container">
         <a class="footer-link link" href="/"
           ><span class="logo">WEB</span>STUDIO</a
         >
